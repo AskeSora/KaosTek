@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'libre-franklin.extrabold';
+    src: url('assets/fonts/libre-franklin.extrabold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #e5d4b6;
+    color: #262e4f;
+    font-family: 'libre-franklin.extrabold', sans-serif;
+    align-content: center;
+}
+header {
+    background-color: #1c223a;
+    width: 100%;
+    height: 200px;
+    align-content: center;
+}
+header img {
+    height: 200px;
+    width: auto;
+}
+.headergrid {
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+.headergriditem {
+    align-content: center;
+}
+nav a {
+    text-decoration: none;
+    color: #f44e1c;
+    font-size: 20px;
+}
+section {
+    
+}
+section h2 {
+    text-align: center;
+}
+.products {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #262e4f;
+    padding: 40px;
+    border-radius: 7px;
+    color: #e5d4b6;
+}
+.product {
+    width: 840px;
+    background-color: #1c223a;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.product h3 {
+    color: #f44e1c;
+}
+.orders {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #262e4f;
+    padding: 40px;
+    border-radius: 7px;
+    color: #e5d4b6;
+}
+.order {
+    width: 840px;
+    background-color: #1c223a;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.order h3 {
+    color: #f44e1c;
+}
+.orderstatus {
+    text-align: end;
+}
+.users {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #262e4f;
+    padding: 40px;
+    border-radius: 7px;
+    color: #e5d4b6;
+}
+.user {
+    width: 840px;
+    background-color: #1c223a;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.user h3 {
+    color: #f44e1c;
+}
+td, th {
+    text-align: left;
+}
+th {
+    color: #f44e1c;
+}
+tr:nth-child(even) {
+  background-color: #1c223a;
+}
+.customertable {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #262e4f;
+    padding: 40px;
+    border-radius: 7px;
+    color: #e5d4b6;
+}
+.producttable {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #262e4f;
+    padding: 40px;
+    border-radius: 7px;
+    color: #e5d4b6;
+}
+.order_itemtable {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #262e4f;
+    padding: 40px;
+    border-radius: 7px;
+    color: #e5d4b6;
+}
+.indexlinks {
+    text-align: center;
+}
+.link {
+    background-color: #262e4f;
+    text-decoration: none;
+    color: #e5d4b6;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.link:hover {
+    background-color: #f44e1c;
+}
